@@ -1,0 +1,123 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-image: url("bg.jpg") ;
+    text-align: center;
+}
+
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+}
+
+.bg-light{
+    background-color:rgb(238, 234, 234);
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin-left: 0rem;
+}
+
+.nav-link{
+    color: rgb(89, 112, 4);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+}
+
+.nav-link:hover{
+    background-color:rgb(149, 163, 162);
+}
+
+.hero-content{
+    height: 60vh;
+    background-color:  #504f4f;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 3rem;
+    padding: 2rem 3rem;
+    font-size: 170%;
+    background-color: #fff;
+    color:#0f0f0f! important;
+
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #e7e9eb;
+
+}
+
+.get-started-content{
+    height: 60vh;
+    background-color: #fdf9f7;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+
+footer{
+  margin-top: 200px;
+  background-color: #9c9a9a;
+  text-align: left;
+  font-size: 15px;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.8rem;
+    position: relative;
+    
+}
+
+
+
+.linkedin{
+    color: #0077b5;
+}
